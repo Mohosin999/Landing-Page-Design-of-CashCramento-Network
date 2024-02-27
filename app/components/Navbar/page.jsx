@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between p-4 px-14">
           {/* Logo text */}
           <Link href="/">
-            <p className="bg-red-500 text-white text-xl px-4 py-2">
+            <p className="bg-red-600 text-white text-xl px-4 py-2">
               CashCramento
             </p>
           </Link>
