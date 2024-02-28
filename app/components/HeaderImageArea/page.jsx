@@ -13,7 +13,7 @@ const HeaderImageArea = () => {
             alt="Picture of the author"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-yellow-950 opacity-75"></div>
+          <div className="absolute inset-0 bg-black opacity-80"></div>
 
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="text-center">
@@ -25,7 +25,7 @@ const HeaderImageArea = () => {
 
                 <h1 className="text-white text-2xl md:text-3xl lg:text-5xl font-bold uppercase space-x-24 mx-6 md:mx-12 lg:mx-40">
                   wallets, embodying{" "}
-                  <span className="text-blue-500 inline-block animate-bounce">
+                  <span className="text-lime-500 inline-block animate-bounce">
                     CashCramento
                   </span>
                 </h1>

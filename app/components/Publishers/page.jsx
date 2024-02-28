@@ -24,62 +24,49 @@ const Publishers = () => {
           </h1>
         </div>
 
-        <div className="flex flex-wrap flex-col lg:flex-row items-center justify-between mx-6 md:mx-10 lg:mx-48 mt-12 lg:mt-16">
-          {/* Left side two icons - start */}
-          <div className="mb-3 lg:mt-0">
-            <div className="flex flex-col items-center justify-center">
-              <div className="">
-                <Image src={Icon1} className="w-32 h-auto" />
-              </div>
-              <p className="mt-3 lg:mt-5 text-sm">
-                Direct and exclusive offers
-              </p>
+        {/* Publishers items */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:mx-28 mt-12 lg:mt-16">
+          <div className="flex flex-col items-center justify-center">
+            <div className="">
+              <Image src={Icon1} className="w-32 h-auto" />
             </div>
-
-            <div className="flex flex-col items-center justify-center mt-4">
-              <div className="">
-                <Image src={Icon2} className="w-32 h-auto" />
-              </div>
-              <p className="mt-3 lg:mt-5 text-sm">Timely payouts Weekly</p>
-            </div>
+            <p className="mt-3 lg:mt-5 text-sm">Direct and exclusive offers</p>
           </div>
-          {/* Left side two icons - end */}
 
-          {/* Middle side two icons - start */}
-          <div className="mb-3 lg:mt-0">
-            <div className="flex flex-col items-center justify-center">
-              <div className="">
-                <Image src={Icon3} className="w-32 h-auto" />
-              </div>
-              <p className="mt-3 lg:mt-5 text-sm">Multi Geo’s</p>
+          <div className="flex flex-col items-center justify-center">
+            <div className="">
+              <Image src={Icon2} className="w-32 h-auto" />
             </div>
-
-            <div className="flex flex-col items-center justify-center mt-4">
-              <div className="">
-                <Image src={Icon4} className="w-32 h-auto" />
-              </div>
-              <p className="mt-3 lg:mt-5 text-sm">Delicated support</p>
-            </div>
+            <p className="mt-3 lg:mt-5 text-sm">Timely payouts Weekly</p>
           </div>
-          {/* Middle side two icons - end */}
 
-          {/* Right side two icons - start */}
-          <div className="mb-3 lg:mt-0">
-            <div className="flex flex-col items-center justify-center">
-              <div className="">
-                <Image src={Icon5} className="w-32 h-auto" />
-              </div>
-              <p className="mt-3 lg:mt-5 text-sm">Referral program</p>
+          <div className="flex flex-col items-center justify-center">
+            <div className="">
+              <Image src={Icon3} className="w-32 h-auto" />
             </div>
-
-            <div className="flex flex-col items-center justify-center mt-4">
-              <div className="">
-                <Image src={Icon6} className="w-32 h-auto" />
-              </div>
-              <p className="mt-3 lg:mt-5 text-sm">Promo/Creative materials</p>
-            </div>
+            <p className="mt-3 lg:mt-5 text-sm">Multi Geo’s</p>
           </div>
-          {/* Right side two icons - end */}
+
+          <div className="flex flex-col items-center justify-center">
+            <div className="">
+              <Image src={Icon4} className="w-32 h-auto" />
+            </div>
+            <p className="mt-3 lg:mt-5 text-sm">Delicated support</p>
+          </div>
+
+          <div className="flex flex-col items-center justify-center">
+            <div className="">
+              <Image src={Icon5} className="w-32 h-auto" />
+            </div>
+            <p className="mt-3 lg:mt-5 text-sm">Referral program</p>
+          </div>
+
+          <div className="flex flex-col items-center justify-center">
+            <div className="">
+              <Image src={Icon6} className="w-32 h-auto" />
+            </div>
+            <p className="mt-3 lg:mt-5 text-sm">Promo/Creative materials</p>
+          </div>
         </div>
       </div>
     </Layout>

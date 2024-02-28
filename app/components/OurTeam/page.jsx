@@ -19,7 +19,7 @@ const OurTeam = () => {
           <div className="w-16 h-auto w-12 md:w-14 lg:w-20 mb-3">
             <Image src={Logo2} alt="Logo" />
           </div>
-          <h1 className="text-gray-200 lg:ml-14 text-3xl md:text-4xl lg:text-6xl font-bold">
+          <h1 className="text-gray-200 lg:ml-14 text-3xl md:text-4xl lg:text-6xl font-bold text">
             Why CashCramento
           </h1>
         </div>
@@ -29,90 +29,78 @@ const OurTeam = () => {
          * Member's list
          * ==============
          */}
-        <div className="text-gray-300 flex flex-wrap flex-col lg:flex-row items-center justify-between lg:mx-28 mt-10 lg:mt-16">
-          {/* Left side two icons - start */}
-          <div>
-            <div className="flex flex-col items-center justify-center">
-              <div className="">
-                <Image src={first} className="w-32 h-auto" />
-              </div>
-              <h1 className="mt-5 font-bold text-xl lg:text-2xl">
-                Alexander Osmani
-              </h1>
-              <h2 className="mt-1 text-lg lg:text-xl">CEO</h2>
-              <p className="mt-1 mb-10 text-md lg:text-base">
-                Email: demo@cashcramento.com
-              </p>
+        <div className="text-gray-200 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:mx-28 mt-10 lg:mt-16">
+          <div className="flex flex-col items-center justify-center">
+            <div className="">
+              <Image src={first} className="w-32 h-auto" />
             </div>
-
-            <div className="flex flex-col items-center justify-center mt-2 lg:mt-4">
-              <div className="">
-                <Image src={fourth} className="w-32 h-auto" />
-              </div>
-              <h1 className="mt-5 font-bold text-xl lg:text-2xl">Antin</h1>
-              <h2 className="mt-1 text-lg lg:text-xl">Finance director</h2>
-              <p className="mt-1 mb-10  text-md lg:text-base">
-                Email: demo@cashcramento.com
-              </p>
-            </div>
+            <h1 className="mt-5 font-bold text-lg lg:text-xl">
+              Alexander Osmani
+            </h1>
+            <h2 className="mt-1 text-base lg:text-lg">CEO</h2>
+            <p className="mt-1 mb-10 text-sm lg:text-base">
+              Email: demo@cashcramento.com
+            </p>
           </div>
-          {/* Left side two icons - end */}
 
-          {/* Middle side two icons - start */}
-          <div>
-            <div className="flex flex-col items-center justify-center">
-              <div className="">
-                <Image src={second} className="w-32 h-auto" />
-              </div>
-              <h1 className="mt-5 font-bold text-xl lg:text-2xl">
-                Viktoria Diana
-              </h1>
-              <h2 className="mt-1 text-lg lg:text-xl">Affiliate Manager</h2>
-              <p className="mt-1 mb-10 text-md lg:text-base">
-                Email: demo@cashcramento.com
-              </p>
+          <div className="flex flex-col items-center justify-center mt-2 md:mt-0">
+            <div className="">
+              <Image src={fourth} className="w-32 h-auto" />
             </div>
-
-            <div className="flex flex-col items-center justify-center mt-2 lg:mt-4">
-              <div className="">
-                <Image src={fifth} className="w-32 h-auto" />
-              </div>
-              <h1 className="mt-5 font-bold text-xl lg:text-2xl">AN Nishan</h1>
-              <h2 className="mt-1 text-lg lg:text-xl">Affiliate Manager</h2>
-              <p className="mt-1 mb-10 text-md lg:text-base">
-                Email: demo@cashcramento.com
-              </p>
-            </div>
+            <h1 className="mt-5 font-bold text-lg lg:text-xl">Antin</h1>
+            <h2 className="mt-1 text-base lg:text-lg">Finance director</h2>
+            <p className="mt-1 mb-10 text-sm lg:text-base">
+              Email: demo@cashcramento.com
+            </p>
           </div>
-          {/* Middle side two icons - end */}
 
-          {/* Right side two icons - start */}
-          <div>
-            <div className="flex flex-col items-center justify-center">
-              <div className="">
-                <Image src={third} className="w-32 h-auto" />
-              </div>
-              <h1 className="mt-5 font-bold text-xl lg:text-2xl">Ola Sherm</h1>
-              <h2 className="mt-1 text-lg lg:text-xl">
-                Business Development Manager
-              </h2>
-              <p className="mt-1 mb-10 text-md lg:text-base">
-                Email: demo@cashcramento.com
-              </p>
+          <div className="flex flex-col items-center justify-center">
+            <div className="">
+              <Image src={second} className="w-32 h-auto" />
             </div>
-
-            <div className="flex flex-col items-center justify-center  mt-2 lg:mt-4">
-              <div className="">
-                <Image src={six} className="w-32 h-auto" />
-              </div>
-              <h1 className="mt-5 font-bold text-xl lg:text-2xl">Igor</h1>
-              <h2 className="mt-1 text-lg lg:text-xl">CTO</h2>
-              <p className="mt-1 mb-10 text-md lg:text-base">
-                Email: demo@cashcramento.com
-              </p>
-            </div>
+            <h1 className="mt-5 font-bold text-lg lg:text-xl">
+              Viktoria Diana
+            </h1>
+            <h2 className="mt-1 text-base lg:text-lg">Affiliate Manager</h2>
+            <p className="mt-1 mb-10 text-sm lg:text-base">
+              Email: demo@cashcramento.com
+            </p>
           </div>
-          {/* Right side two icons - end */}
+
+          <div className="flex flex-col items-center justify-center mt-2 md:mt-0">
+            <div className="">
+              <Image src={fifth} className="w-32 h-auto" />
+            </div>
+            <h1 className="mt-5 font-bold text-lg lg:text-xl">AN Nishan</h1>
+            <h2 className="mt-1 text-base lg:text-lg">Affiliate Manager</h2>
+            <p className="mt-1 mb-10 text-sm lg:text-base">
+              Email: demo@cashcramento.com
+            </p>
+          </div>
+
+          <div className="flex flex-col items-center justify-center">
+            <div className="">
+              <Image src={third} className="w-32 h-auto" />
+            </div>
+            <h1 className="mt-5 font-bold text-lg lg:text-xl">Ola Sherm</h1>
+            <h2 className="mt-1 text-base lg:text-lg">
+              Business Development Manager
+            </h2>
+            <p className="mt-1 mb-10 text-sm lg:text-base">
+              Email: demo@cashcramento.com
+            </p>
+          </div>
+
+          <div className="flex flex-col items-center justify-center mt-2 md:mt-0">
+            <div className="">
+              <Image src={six} className="w-32 h-auto" />
+            </div>
+            <h1 className="mt-5 font-bold text-lg lg:text-xl">Igor</h1>
+            <h2 className="mt-1 text-base lg:text-lg">CTO</h2>
+            <p className="mt-1 mb-10 text-sm lg:text-base">
+              Email: demo@cashcramento.com
+            </p>
+          </div>
         </div>
       </div>
     </Layout>

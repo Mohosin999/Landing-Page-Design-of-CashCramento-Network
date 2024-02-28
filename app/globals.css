@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @keyframes moveRightToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.payment-systems-container {
+  display: flex;
+  animation: moveRightToLeft 15s linear infinite;
+} */
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Apply animation for LG, XL, and larger screens */
+@media (min-width: 1024px) {
+  .lg\:animate-marquee {
+    animation: marquee 15s linear infinite;
+  }
+}

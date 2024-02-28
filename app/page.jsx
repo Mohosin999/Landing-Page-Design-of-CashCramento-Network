@@ -14,19 +14,20 @@ const HomePage = () => {
     <>
       <Navbar />
       <HeaderImageArea />
+
       <HeroAreaOne />
 
       <div className="bg-sky-950">
         <HeroAreaTwo />
       </div>
 
-      <div className="bg-lime-200">
+      <div className="bg-gray-200">
         <Publishers />
       </div>
 
       <PaymentSystems />
 
-      <div className="bg-sky-950">
+      <div className="bg-green-950">
         <OurTeam />
       </div>
 
