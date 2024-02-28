@@ -15,23 +15,29 @@ const HomePage = () => {
       <Navbar />
       <HeaderImageArea />
 
-      <HeroAreaOne />
+      <div className="bg-gray-50">
+        <HeroAreaOne />
+      </div>
 
       <div className="bg-sky-950">
         <HeroAreaTwo />
       </div>
 
-      <div className="bg-gray-200">
+      <div className="bg-sky-300">
         <Publishers />
       </div>
 
-      <PaymentSystems />
+      <div className="bg-gray-50">
+        <PaymentSystems />
+      </div>
 
-      <div className="bg-green-950">
+      <div className="bg-sky-950">
         <OurTeam />
       </div>
 
-      <Contact />
+      <div className="bg-gray-50">
+        <Contact />
+      </div>
       <Footer />
     </>
   );

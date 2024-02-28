@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-green-900 text-white">
+      <nav className="bg-green-950 text-white shadow-md">
         <div className="flex items-center justify-between px-6 py-4 lg:p-4 lg:px-14">
           {/* Logo text */}
           <Link href="/">
@@ -36,7 +36,7 @@ const Navbar = () => {
 
           {/* Links */}
 
-          <div className="hidden lg:flex space-x-24">
+          {/* <div className="hidden lg:flex space-x-24">
             <Link
               href="/"
               className="text-lg uppercase hover:scale-110 duration-300 active:scale-95"
@@ -70,6 +70,45 @@ const Navbar = () => {
             <Link
               href="/"
               className="text-lg uppercase hover:scale-110 duration-300 active:scale-95"
+            >
+              <span className="relative">Contact Us</span>
+            </Link>
+          </div> */}
+
+          <div className="hidden lg:flex lg:space-x-12 xl:space-x-20">
+            <Link
+              href="/"
+              className="text:lg lg:text-base xl:text-lg uppercase hover:scale-110 duration-300 active:scale-95"
+            >
+              <span className="relative">About</span>
+            </Link>
+            <Link
+              href="/"
+              className="text:lg lg:text-base xl:text-lg uppercase hover:scale-110 duration-300 active:scale-95"
+            >
+              <span className="relative">Advertisers</span>
+            </Link>
+            <Link
+              href="/"
+              className="text:lg lg:text-base xl:text-lg uppercase hover:scale-110 duration-300 active:scale-95"
+            >
+              <span className="relative">Publishers</span>
+            </Link>
+            <Link
+              href="https://cashcramento.affise.com/v2/sign/up"
+              className="text:lg lg:text-base xl:text-lg uppercase hover:scale-110 duration-300 active:scale-95"
+            >
+              <span className="relative">Sign Up</span>
+            </Link>
+            <Link
+              href="https://cashcramento.affise.com/v2/sign/in"
+              className="text:lg lg:text-base xl:text-lg uppercase hover:scale-110 duration-300 active:scale-95"
+            >
+              <span className="relative">Login</span>
+            </Link>
+            <Link
+              href="/"
+              className="text:lg lg:text-base xl:text-lg uppercase hover:scale-110 duration-300 active:scale-95"
             >
               <span className="relative">Contact Us</span>
             </Link>

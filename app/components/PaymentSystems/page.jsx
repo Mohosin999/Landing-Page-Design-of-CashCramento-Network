@@ -24,7 +24,7 @@ const PaymentSystems = () => {
         </div>
 
         {/* Lists */}
-        <div className="flex flex-col lg:flex-row items-center justify-between lg:mx-36 lg:mr-40 lg:animate-marquee">
+        <div className="flex flex-col lg:flex-row items-center justify-between xl:mx-36 xl:mr-40 lg:animate-marquee">
           <Image src={WebMoney} className="w-44 h-auto" />
           <Image src={Tether} className="w-44 h-auto" />
           <Image src={Payoneer} className="w-44 h-auto" />

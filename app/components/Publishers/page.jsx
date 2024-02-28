@@ -25,7 +25,7 @@ const Publishers = () => {
         </div>
 
         {/* Publishers items */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:mx-28 mt-12 lg:mt-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 lg:mx-28 mt-12 lg:mt-16">
           <div className="flex flex-col items-center justify-center">
             <div className="">
               <Image src={Icon1} className="w-32 h-auto" />

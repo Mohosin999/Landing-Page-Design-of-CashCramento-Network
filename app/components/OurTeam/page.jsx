@@ -20,7 +20,7 @@ const OurTeam = () => {
             <Image src={Logo2} alt="Logo" />
           </div>
           <h1 className="text-gray-200 lg:ml-14 text-3xl md:text-4xl lg:text-6xl font-bold text">
-            Why CashCramento
+            Our CashCraments
           </h1>
         </div>
 
@@ -29,7 +29,7 @@ const OurTeam = () => {
          * Member's list
          * ==============
          */}
-        <div className="text-gray-200 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:mx-28 mt-10 lg:mt-16">
+        <div className="text-gray-200 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 lg:mx-28 mt-10 lg:mt-16">
           <div className="flex flex-col items-center justify-center">
             <div className="">
               <Image src={first} className="w-32 h-auto" />
