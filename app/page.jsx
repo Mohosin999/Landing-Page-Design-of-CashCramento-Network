@@ -6,6 +6,8 @@ import HeroAreaTwo from "./components/HeroAreaTwo/page";
 import Publishers from "./components/Publishers/page";
 import PaymentSystems from "./components/PaymentSystems/page";
 import OurTeam from "./components/OurTeam/page";
+import Contact from "./components/Contact/page";
+import Footer from "./components/Footer/page";
 
 const HomePage = () => {
   return (
@@ -13,14 +15,23 @@ const HomePage = () => {
       <Navbar />
       <HeaderImageArea />
       <HeroAreaOne />
+
       <div className="bg-sky-950">
         <HeroAreaTwo />
       </div>
-      <Publishers />
+
+      <div className="bg-lime-200">
+        <Publishers />
+      </div>
+
       <PaymentSystems />
+
       <div className="bg-sky-950">
         <OurTeam />
       </div>
+
+      <Contact />
+      <Footer />
     </>
   );
 };

@@ -5,15 +5,21 @@ import Logo2 from "../../../public/images/logo2.jpg";
 
 const HeroAreaTwo = () => {
   return (
-    <Layout>
-      <div className="py-20 text-white">
-        <div className="flex items-center justify-start">
-          <Image src={Logo2} className="w-20 h-auto" />
-          <h1 className="ml-14 text-6xl font-bold">Advertisers</h1>
+    <Layout className="px-6 lg:px-28">
+      <div className="py-14 lg:py-20 text-white">
+        {/* Logo and Title */}
+        <div className="flex flex-col lg:flex-row items-center justify-start">
+          {/* Adjust logo size for mobile or tablet */}
+          <div className="w-16 h-auto w-12 md:w-14 lg:w-20 mb-3">
+            <Image src={Logo2} alt="Logo" />
+          </div>
+          <h1 className="lg:ml-14 text-3xl md:text-4xl lg:text-6xl font-bold">
+            Advertisers
+          </h1>
         </div>
 
         {/* Lists */}
-        <ul className="ml-36 mr-20 mt-6 leading-7 text-base list-disc">
+        <ul className="mx-6 md:mx-10 lg:mx-0 lg:ml-36 lg:mr-20 mt-6 leading-7 text-base lg:text-lg list-disc">
           <li>We are always open for new partnership opportunities.</li>
           <li>
             We specialize in performance marketing, so as an advertiser you

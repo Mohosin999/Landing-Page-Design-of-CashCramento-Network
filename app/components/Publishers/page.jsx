@@ -11,64 +11,72 @@ import Icon6 from "../../../public/icons/icon6.png";
 
 const Publishers = () => {
   return (
-    <Layout>
-      <div className="py-20">
-        <div className="flex items-center justify-start">
-          <Image src={Logo2} className="w-20 h-auto" />
-          <h1 className="ml-14 text-6xl font-bold">Publishers</h1>
+    <Layout className="px-6 lg:px-28">
+      <div className="py-14 lg:py-20">
+        {/* Logo and Title */}
+        <div className="flex flex-col lg:flex-row items-center justify-start">
+          {/* Adjust logo size for mobile or tablet */}
+          <div className="w-16 h-auto w-12 md:w-14 lg:w-20 mb-3">
+            <Image src={Logo2} alt="Logo" />
+          </div>
+          <h1 className="lg:ml-14 text-3xl md:text-4xl lg:text-6xl font-bold">
+            Publishers
+          </h1>
         </div>
 
-        <div className="flex flex-wrap items-center justify-between mx-48 mt-16">
+        <div className="flex flex-wrap flex-col lg:flex-row items-center justify-between mx-6 md:mx-10 lg:mx-48 mt-12 lg:mt-16">
           {/* Left side two icons - start */}
-          <div>
+          <div className="mb-3 lg:mt-0">
             <div className="flex flex-col items-center justify-center">
               <div className="">
                 <Image src={Icon1} className="w-32 h-auto" />
               </div>
-              <p className="mt-5 text-sm">Direct and exclusive offers</p>
+              <p className="mt-3 lg:mt-5 text-sm">
+                Direct and exclusive offers
+              </p>
             </div>
 
             <div className="flex flex-col items-center justify-center mt-4">
               <div className="">
                 <Image src={Icon2} className="w-32 h-auto" />
               </div>
-              <p className="mt-5 text-sm">Timely payouts Weekly</p>
+              <p className="mt-3 lg:mt-5 text-sm">Timely payouts Weekly</p>
             </div>
           </div>
           {/* Left side two icons - end */}
 
           {/* Middle side two icons - start */}
-          <div>
+          <div className="mb-3 lg:mt-0">
             <div className="flex flex-col items-center justify-center">
               <div className="">
                 <Image src={Icon3} className="w-32 h-auto" />
               </div>
-              <p className="mt-5 text-sm">Multi Geo’s</p>
+              <p className="mt-3 lg:mt-5 text-sm">Multi Geo’s</p>
             </div>
 
             <div className="flex flex-col items-center justify-center mt-4">
               <div className="">
                 <Image src={Icon4} className="w-32 h-auto" />
               </div>
-              <p className="mt-5 text-sm">Delicated support</p>
+              <p className="mt-3 lg:mt-5 text-sm">Delicated support</p>
             </div>
           </div>
           {/* Middle side two icons - end */}
 
           {/* Right side two icons - start */}
-          <div>
+          <div className="mb-3 lg:mt-0">
             <div className="flex flex-col items-center justify-center">
               <div className="">
                 <Image src={Icon5} className="w-32 h-auto" />
               </div>
-              <p className="mt-5 text-sm">Referral program</p>
+              <p className="mt-3 lg:mt-5 text-sm">Referral program</p>
             </div>
 
             <div className="flex flex-col items-center justify-center mt-4">
               <div className="">
                 <Image src={Icon6} className="w-32 h-auto" />
               </div>
-              <p className="mt-5 text-sm">Promo/Creative materials</p>
+              <p className="mt-3 lg:mt-5 text-sm">Promo/Creative materials</p>
             </div>
           </div>
           {/* Right side two icons - end */}
