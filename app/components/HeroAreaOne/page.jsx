@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../Layout/page";
 import Image from "next/image";
-import Logo2 from "../../../public/images/logo2.jpg";
+import Logo2 from "../../../public/images/logo2.jpeg";
 
 const HeroAreaOne = () => {
   return (

@@ -15,9 +15,7 @@ const HomePage = () => {
       <Navbar />
       <HeaderImageArea />
 
-      <div className="bg-gray-50">
-        <HeroAreaOne />
-      </div>
+      <HeroAreaOne />
 
       <div className="bg-sky-950">
         <HeroAreaTwo />
@@ -27,17 +25,13 @@ const HomePage = () => {
         <Publishers />
       </div>
 
-      <div className="bg-gray-50">
-        <PaymentSystems />
-      </div>
+      <PaymentSystems />
 
       <div className="bg-sky-950">
         <OurTeam />
       </div>
 
-      <div className="bg-gray-50">
-        <Contact />
-      </div>
+      <Contact />
       <Footer />
     </>
   );

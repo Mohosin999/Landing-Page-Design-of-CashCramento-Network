@@ -14,11 +14,11 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-green-950 text-white shadow-md">
+      <nav className="bg-red-600 text-white shadow-md">
         <div className="flex items-center justify-between px-6 py-4 lg:p-4 lg:px-14">
           {/* Logo text */}
           <Link href="/">
-            <p className="bg-red-600 text-white font-bold text-xl px-4 py-2">
+            <p className="bg-gray-200 text-red-600 font-bold text-xl px-4 py-2">
               CashCramento
             </p>
           </Link>

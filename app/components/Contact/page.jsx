@@ -3,8 +3,8 @@ import React from "react";
 const Contact = () => {
   return (
     <section>
-      <div className="py-8 lg:py-16 px-6 lg:px-4 mx-auto max-w-screen-md">
-        <h2 className="mb-4 text-2xl lg:text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white uppercase">
+      <div className="py-4 lg:py-8 px-6 lg:px-12 mx-3 lg:mx-auto max-w-screen-md  shadow-lg my-4 lg:my-8">
+        <h2 className="mb-4 text-xl lg:text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white uppercase">
           Contact Our CashCramento Team
         </h2>
         <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">

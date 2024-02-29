@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Layout from "../Layout/page";
-import Logo2 from "../../../public/images/logo2.jpg";
+import Logo2 from "../../../public/images/logo2.jpeg";
 
 const HeroAreaTwo = () => {
   const [isInView, setIsInView] = useState(false);
