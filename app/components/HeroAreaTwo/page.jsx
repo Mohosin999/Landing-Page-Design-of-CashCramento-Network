@@ -93,7 +93,7 @@ const HeroAreaTwo = () => {
 
           <li
             className={`p-4 ${
-              visibleListItems >= 4 ? "bg-sky-800 rounded-lg" : ""
+              visibleListItems >= 4 ? "bg-sky-800 mb-2 rounded-lg" : ""
             } transition-background duration-1000`}
           >
             Our platform provides a straightforward, cost-effective solution for
@@ -104,7 +104,7 @@ const HeroAreaTwo = () => {
 
           <li
             className={`p-4 ${
-              visibleListItems >= 4 ? "bg-sky-800 rounded-lg" : ""
+              visibleListItems >= 4 ? "bg-sky-900 rounded-lg" : ""
             } transition-background duration-1000`}
           >
             We present a straightforward and economical approach to cultivating
