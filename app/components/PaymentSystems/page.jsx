@@ -18,7 +18,7 @@ const PaymentSystems = () => {
           <div className="w-16 h-auto w-12 md:w-14 lg:w-20 mb-3">
             <Image src={Logo2} alt="Logo" />
           </div>
-          <h1 className="lg:ml-14 text-3xl md:text-4xl lg:text-6xl font-bold">
+          <h1 className="lg:ml-14 text-3xl md:text-4xl lg:text-6xl font-bold uppercase">
             Payment systems
           </h1>
         </div>

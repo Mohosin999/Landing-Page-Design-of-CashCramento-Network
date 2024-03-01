@@ -20,8 +20,8 @@ const OurTeam = () => {
           <div className="w-16 h-auto w-12 md:w-14 lg:w-20 mb-3">
             <Image src={Logo2} alt="Logo" />
           </div>
-          <h1 className="text-gray-200 lg:ml-14 text-3xl md:text-4xl lg:text-6xl font-bold text">
-            Our CashCraments
+          <h1 className="text-gray-200 lg:ml-14 text-3xl md:text-4xl lg:text-6xl font-bold text uppercase">
+            CashCraments Society
           </h1>
         </div>
 

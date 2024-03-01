@@ -14,17 +14,18 @@ const HeroAreaOne = () => {
             <div className="w-16 h-auto w-12 md:w-14 lg:w-20 mb-3">
               <Image src={Logo2} alt="Logo" />
             </div>
-            <h1 className="lg:ml-14 text-3xl md:text-4xl lg:text-6xl font-bold">
-              Why CashCramento
+            <h1 className="lg:ml-14 text-3xl md:text-4xl lg:text-6xl font-bold uppercase">
+              What Makes CashCramento Stand Out?
             </h1>
           </div>
 
           {/* <p className="mx-4 sm:mx-8 md:mx-36 mt-6 leading-7 text-base"> */}
           <p className="text-center lg:text-start lg:mx-36 mt-6 leading-7 text-base lg:text-lg">
-            CashCramento is the web’s premier affiliate network specializing in
-            mainstream, niche, and adult offers. Our exclusive offers help you
-            make massive cash off your display, social, email, pop, and search
-            traffic.
+            CashCramento stands as the internet's foremost affiliate network,
+            catering to a wide array of offers spanning mainstream, niche, and
+            adult content. With our unique selection of offers, you can unlock
+            significant earnings from your display, social media, email, pop-up,
+            and search traffic channels.
           </p>
         </div>
       </Layout>

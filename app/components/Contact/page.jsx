@@ -5,13 +5,13 @@ const Contact = () => {
     <section>
       <div className="py-4 lg:py-8 px-6 lg:px-12 mx-3 lg:mx-auto max-w-screen-md  shadow-lg my-4 lg:my-8">
         <h2 className="mb-4 text-xl lg:text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white uppercase">
-          Contact Our CashCramento Team
+          Contact Us
         </h2>
         <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
-          If you have any questions or comments, please contact us either using
-          this form. We are willing to assist you with anything you may need,
-          from custom promotional tools, to free hosting. There is no bad
-          question, so ask away!
+          Should you have any inquiries or feedback, feel free to reach out to
+          us via this form. We're here to support you with a range of services,
+          including tailored promotional tools and complimentary hosting.
+          Remember, no question is insignificant, so don't hesitate to ask!
         </p>
 
         {/* Contact form */}

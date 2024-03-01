@@ -21,9 +21,9 @@ const HomePage = () => {
         <HeroAreaTwo />
       </div>
 
-      <div className="bg-sky-300">
+      {/* <div className="bg-sky-300">
         <Publishers />
-      </div>
+      </div> */}
 
       <PaymentSystems />
 

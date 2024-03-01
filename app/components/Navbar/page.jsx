@@ -35,46 +35,6 @@ const Navbar = () => {
           </div>
 
           {/* Links */}
-
-          {/* <div className="hidden lg:flex space-x-24">
-            <Link
-              href="/"
-              className="text-lg uppercase hover:scale-110 duration-300 active:scale-95"
-            >
-              <span className="relative">About</span>
-            </Link>
-            <Link
-              href="/"
-              className="text-lg uppercase hover:scale-110 duration-300 active:scale-95"
-            >
-              <span className="relative">Advertisers</span>
-            </Link>
-            <Link
-              href="/"
-              className="text-lg uppercase hover:scale-110 duration-300 active:scale-95"
-            >
-              <span className="relative">Publishers</span>
-            </Link>
-            <Link
-              href="https://cashcramento.affise.com/v2/sign/up"
-              className="text-lg uppercase hover:scale-110 duration-300 active:scale-95"
-            >
-              <span className="relative">Sign Up</span>
-            </Link>
-            <Link
-              href="https://cashcramento.affise.com/v2/sign/in"
-              className="text-lg uppercase hover:scale-110 duration-300 active:scale-95"
-            >
-              <span className="relative">Login</span>
-            </Link>
-            <Link
-              href="/"
-              className="text-lg uppercase hover:scale-110 duration-300 active:scale-95"
-            >
-              <span className="relative">Contact Us</span>
-            </Link>
-          </div> */}
-
           <div className="hidden lg:flex lg:space-x-12 xl:space-x-20">
             <Link
               href="/"

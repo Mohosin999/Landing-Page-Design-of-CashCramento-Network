@@ -52,7 +52,7 @@ const HeroAreaTwo = () => {
           <div className="w-16 h-auto w-12 md:w-14 lg:w-20 mb-3">
             <Image src={Logo2} alt="Logo" />
           </div>
-          <h1 className="lg:ml-14 text-3xl md:text-4xl lg:text-6xl font-bold">
+          <h1 className="lg:ml-14 text-3xl md:text-4xl lg:text-6xl font-bold uppercase">
             Advertisers
           </h1>
         </div>
@@ -67,34 +67,49 @@ const HeroAreaTwo = () => {
               visibleListItems >= 1 ? "bg-sky-900 mb-2 rounded-lg" : ""
             } transition-background duration-1000`}
           >
-            We are always open for new partnership opportunities.
+            We remain receptive to exploring fresh avenues for partnerships.
           </li>
+
           <li
             className={`p-4 ${
               visibleListItems >= 2 ? "bg-sky-800 mb-2 rounded-lg" : ""
             } transition-background duration-1000`}
           >
-            We specialize in performance marketing, so as an advertiser you
-            always know what you pay for. We truly care about the quality of the
-            traffic we deliver, monitored traffic and publisher selection
-            process guarantees quality results.
+            As experts in performance marketing, we ensure transparency in your
+            advertising investment, guaranteeing that you know precisely what
+            you're paying for. Our rigorous traffic monitoring and publisher
+            selection process underscore our commitment to delivering
+            high-quality results.
           </li>
+
           <li
             className={`p-4 ${
               visibleListItems >= 3 ? "bg-sky-900 mb-2 rounded-lg" : ""
             } transition-background duration-1000`}
           >
-            We can help you to sell your product or service to millions of
-            potential customers.
+            We possess the capability to assist you in reaching millions of
+            potential customers and effectively selling your product or service.
           </li>
+
           <li
             className={`p-4 ${
               visibleListItems >= 4 ? "bg-sky-800 rounded-lg" : ""
             } transition-background duration-1000`}
           >
-            We offer a simple, cost-efficient way to generate quality leads and
-            sales through our internal inventory and extensive network of
-            partners.
+            Our platform provides a straightforward, cost-effective solution for
+            generating high-quality leads and driving sales. Leveraging our
+            internal inventory and extensive partner network ensures optimal
+            results for your business.
+          </li>
+
+          <li
+            className={`p-4 ${
+              visibleListItems >= 4 ? "bg-sky-800 rounded-lg" : ""
+            } transition-background duration-1000`}
+          >
+            We present a straightforward and economical approach to cultivating
+            valuable leads and driving sales by leveraging both our internal
+            resources and vast network of partners.
           </li>
         </ul>
       </div>
