@@ -77,7 +77,7 @@ const HeroAreaTwo = () => {
           >
             As experts in performance marketing, we ensure transparency in your
             advertising investment, guaranteeing that you know precisely what
-            you're paying for. Our rigorous traffic monitoring and publisher
+            you are paying for. Our rigorous traffic monitoring and publisher
             selection process underscore our commitment to delivering
             high-quality results.
           </li>

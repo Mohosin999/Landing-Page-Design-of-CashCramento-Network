@@ -25,10 +25,10 @@ const PaymentSystems = () => {
 
         {/* Lists */}
         <div className="flex flex-col lg:flex-row items-center justify-between xl:mx-36 xl:mr-40 lg:animate-marquee">
-          <Image src={WebMoney} className="w-44 h-auto" />
-          <Image src={Tether} className="w-44 h-auto" />
-          <Image src={Payoneer} className="w-44 h-auto" />
-          <Image src={WireTransfer} className="w-44 h-auto" />
+          <Image src={WebMoney} alt="photo" className="w-44 h-auto" />
+          <Image src={Tether} alt="photo" className="w-44 h-auto" />
+          <Image src={Payoneer} alt="photo" className="w-44 h-auto" />
+          <Image src={WireTransfer} alt="photo" className="w-44 h-auto" />
         </div>
       </div>
     </Layout>

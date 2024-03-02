@@ -9,9 +9,9 @@ const Contact = () => {
         </h2>
         <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
           Should you have any inquiries or feedback, feel free to reach out to
-          us via this form. We're here to support you with a range of services,
+          us via this form. We are here to support you with a range of services,
           including tailored promotional tools and complimentary hosting.
-          Remember, no question is insignificant, so don't hesitate to ask!
+          Remember, no question is insignificant, so do not hesitate to ask!
         </p>
 
         {/* Contact form */}

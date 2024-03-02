@@ -35,6 +35,7 @@ const OurTeam = () => {
             <div className="">
               <Image
                 src={Member_01}
+                alt="photo"
                 className="w-32 h-32 rounded-full object-cover"
               />
             </div>
@@ -51,6 +52,7 @@ const OurTeam = () => {
             <div className="">
               <Image
                 src={Member_02}
+                alt="photo"
                 className="w-32 h-32 rounded-full object-cover"
               />
             </div>
@@ -69,6 +71,7 @@ const OurTeam = () => {
             <div className="">
               <Image
                 src={Member_03}
+                alt="photo"
                 className="w-32 h-32 rounded-full object-cover"
               />
             </div>
@@ -87,6 +90,7 @@ const OurTeam = () => {
             <div className="">
               <Image
                 src={Member_04}
+                alt="photo"
                 className="w-32 h-32 rounded-full object-cover"
               />
             </div>
@@ -105,6 +109,7 @@ const OurTeam = () => {
             <div className="">
               <Image
                 src={Member_05}
+                alt="photo"
                 className="w-32 h-32 rounded-full object-cover"
               />
             </div>
@@ -123,6 +128,7 @@ const OurTeam = () => {
             <div className="">
               <Image
                 src={Member_06}
+                alt="photo"
                 className="w-32 h-32 rounded-full object-cover"
               />
             </div>
