@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar/page";
-import HeaderImageArea from "./components/HeaderImageArea/page";
+import HeroArea from "./components/HeroArea/page";
 import HeroAreaOne from "./components/HeroAreaOne/page";
 import HeroAreaTwo from "./components/HeroAreaTwo/page";
 import Publishers from "./components/Publishers/page";
@@ -13,7 +13,7 @@ const HomePage = () => {
   return (
     <>
       <Navbar />
-      <HeaderImageArea />
+      <HeroArea />
 
       <HeroAreaOne />
 
