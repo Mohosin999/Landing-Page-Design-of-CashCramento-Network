@@ -3,11 +3,11 @@ import React from "react";
 const Contact = () => {
   return (
     <section>
-      <div className="py-4 lg:py-8 px-6 lg:px-12 mx-3 lg:mx-auto max-w-screen-md  shadow-lg my-4 lg:my-8">
-        <h2 className="mb-4 text-xl lg:text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white uppercase">
+      <div className="py-4 lg:py-8 px-6 lg:px-12 mx-3 lg:mx-auto max-w-screen-md  my-8 lg:mt-8 lg:mb-16">
+        <h2 className="text-gray-900 dark:text-gray-200 mb-4 text-2xl md:text-3xl lg:text-5xl tracking-tight font-extrabold text-center">
           Contact Us
         </h2>
-        <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
+        <p className="mb-6 lg:mb-10 font-light text-center text-gray-800 dark:text-gray-300 sm:text-xl">
           Should you have any inquiries or feedback, feel free to reach out to
           us via this form. We are here to support you with a range of services,
           including tailored promotional tools and complimentary hosting.
@@ -15,12 +15,12 @@ const Contact = () => {
         </p>
 
         {/* Contact form */}
-        <form className="space-y-8">
+        <form className="space-y-8 px-8 py-8 shadow-md shadow-sky-300 dark:shadow-gray-700">
           {/* Name section */}
           <div>
             <label
               for="name"
-              className="block mb-2 text-base lg:text-lg font-medium text-gray-900 uppercase"
+              className="block mb-2 text-base lg:text-lg font-medium text-gray-800 dark:text-gray-300 uppercase"
             >
               Your name
             </label>
@@ -36,7 +36,7 @@ const Contact = () => {
           <div>
             <label
               for="email"
-              className="block mb-2 text-base lg:text-lg font-medium text-gray-900 dark:text-gray-300 uppercase"
+              className="block mb-2 text-base lg:text-lg font-medium text-gray-800 dark:text-gray-300 uppercase"
             >
               Your email
             </label>
@@ -52,7 +52,7 @@ const Contact = () => {
           <div className="sm:col-span-2">
             <label
               for="message"
-              className="block mb-2 text-base lg:text-lg font-medium text-gray-900 dark:text-gray-400 uppercase"
+              className="block mb-2 text-base lg:text-lg font-medium text-gray-800 dark:text-gray-400 uppercase"
             >
               Your message
             </label>
@@ -67,7 +67,7 @@ const Contact = () => {
           {/* Submit button */}
           <button
             type="submit"
-            className="text-sm lg:text-base px-6 lg:px-12 py-2 lg:py-3 rounded-md font-medium text-center text-white bg-lime-800 hover:scale-90 active:scale-105 transition duration-300 uppercase rounded-lg sm:w-fit"
+            className="bg-sky-400 text-gray-900 text-sm lg:text-base px-10 lg:px-16 py-2 lg:py-3 hover:bg-sky-700 hover:text-gray-200 rounded-md font-semibold uppercase active:bg-white active:text-gray-900 border border-sky-400 hover:border-sky-700 duration-300"
           >
             Send message
           </button>
