@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import HeaderImage from "../../../public/images/header_image.jpg";
-import ButtonLink from "../UI/ButtonLink/page";
+import Link from "next/link";
 
 const HeroArea = () => {
   return (
@@ -43,18 +43,19 @@ const HeroArea = () => {
                * =================
                */}
               <div className="space-x-4">
-                <ButtonLink
-                  title={"Sign Up"}
+                <Link
                   href={"https://cashcramento.affise.com/v2/sign/up"}
-                />
+                  className={`bg-sky-400 text-gray-900 text-sm lg:text-base px-10 lg:px-16 py-2 lg:py-3 hover:bg-sky-600 hover:text-gray-200 rounded-md font-semibold uppercase active:bg-white active:text-gray-900 border border-sky-400 hover:border-sky-600 duration-300`}
+                >
+                  Sign Up
+                </Link>
 
-                <ButtonLink
-                  title={"Login"}
+                <Link
                   href={"https://cashcramento.affise.com/v2/sign/in"}
-                  className={
-                    "!bg-white !border-gray-800 hover:!bg-sky-700 hover:!border-sky-700 active:!bg-white active:!text-gray-900"
-                  }
-                />
+                  className={`bg-white text-gray-900 text-sm lg:text-base px-10 lg:px-16 py-2 lg:py-3 hover:bg-sky-600 hover:text-gray-200 rounded-md font-semibold uppercase active:bg-white active:text-gray-900 border border-gray-800 hover:border-sky-600 duration-300`}
+                >
+                  Login
+                </Link>
               </div>
             </div>
           </div>
