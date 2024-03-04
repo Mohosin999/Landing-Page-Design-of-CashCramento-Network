@@ -15,7 +15,7 @@ const Contact = () => {
         </p>
 
         {/* Contact form */}
-        <form className="space-y-8 px-8 py-8 shadow-md shadow-sky-300 dark:shadow-gray-700">
+        <form className="space-y-8 px-8 py-8 shadow-lg bg-gray-100  dark:bg-gray-800">
           {/* Name section */}
           <div>
             <label

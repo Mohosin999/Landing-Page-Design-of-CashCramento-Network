@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import Layout from "../Layout/page";
-import Logo2 from "../../../public/images/logo2.jpeg";
+import BrandLogo from "../../../public/icons/brand_logo.png";
 import WebMoney from "../../../public/icons/webmoney.png";
 import Tether from "../../../public/icons/tether.png";
 import Payoneer from "../../../public/icons/payoneer.png";
@@ -17,13 +17,14 @@ const PaymentSystems = () => {
          * Logo and Title
          * ==============
          */}
-        <div className="flex flex-col lg:flex-row items-center justify-center">
-          {/* Adjust logo size for mobile or tablet */}
-          <div className="w-16 h-auto w-12 md:w-14 lg:w-20 mb-3">
-            <Image src={Logo2} alt="Logo" />
-          </div>
-          <h1 className="text-gray-900 dark:text-gray-200 lg:ml-14 text-2xl md:text-3xl lg:text-5xl font-bold">
-            Payment systems
+        <div className="flex flex-col lg:flex-row items-center justify-center mb-0 lg:mb-5">
+          <Image
+            src={BrandLogo}
+            alt="Logo"
+            className="w-16 h-auto md:w-14 lg:w-20"
+          />
+          <h1 className="text-gray-900 dark:text-gray-200 lg:ml-6 text-2xl md:text-3xl lg:text-5xl font-bold">
+            Payment Systems
           </h1>
         </div>
 
