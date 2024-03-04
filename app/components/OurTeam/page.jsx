@@ -56,16 +56,16 @@ const OurTeam = () => {
 
           <MemberDiv
             image={Member_04}
-            h1={"AN Nishan"}
+            h1={"Arthur"}
             h3={"Affiliate Manager"}
-            p={"nishan@cashcramento.com"}
+            p={"arthur@cashcramento.com"}
           />
 
           <MemberDiv
             image={Member_05}
-            h1={"Mohosin"}
+            h1={"Ivan"}
             h3={"Business Development Manager"}
-            p={"mohosin@cashcramento.com"}
+            p={"ivan@cashcramento.com"}
           />
 
           <MemberDiv

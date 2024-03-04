@@ -21,7 +21,7 @@ const Advertisers = () => {
         </div>
 
         {/* Lists */}
-        <ul className="text-center text-gray-800 dark:text-gray-300 mx-6 md:mx-10 lg:mx-0 lg:ml-36 lg:mr-20 mt-6 leading-7 text-base lg:text-lg">
+        <ul className="text-center text-gray-800 dark:text-gray-300 lg:mx-0 lg:ml-36 lg:mr-20 mt-6 leading-7 text-base lg:text-lg">
           <div>
             <LI
               text={

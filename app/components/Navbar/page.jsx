@@ -8,6 +8,7 @@ import useThemeSwitcher from "../hooks/useThemeSwitcher";
 import { IoMdSunny } from "react-icons/io";
 import { IoMdMoon } from "react-icons/io";
 import BrandLogo from "../../../public/icons/brand_logo.png";
+import MobileMenu from "./MobileMenu";
 
 const Navbar = () => {
   const [mode, setMode] = useThemeSwitcher();
@@ -21,7 +22,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="dark:bg-gray-800 shadow-lg">
+      <nav className="bg-gray-100 dark:bg-gray-800 shadow-lg">
         <div className="flex items-center justify-between px-6 py-4 lg:p-4 lg:px-14">
           {/**
            * =======================================================
@@ -163,52 +164,53 @@ const Navbar = () => {
          * =============================
          */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden h-screen bg-gray-800">
-            <div className="flex flex-col px-10 py-6">
-              <Link
-                href="/about"
-                onClick={toggleMobileMenu}
-                className="text-lg text-white uppercase hover:bg-green-800 border-b hover:border-none border-gray-300 mx-10 px-10 py-4"
-              >
-                About
-              </Link>
-              <Link
-                href="/advertisers"
-                onClick={toggleMobileMenu}
-                className="text-lg text-white uppercase hover:bg-green-800 border-b hover:border-none border-gray-300 mx-10 px-10 py-4"
-              >
-                Advertisers
-              </Link>
-              <Link
-                href="/publishers"
-                onClick={toggleMobileMenu}
-                className="text-lg text-white uppercase hover:bg-green-800 border-b hover:border-none border-gray-300 mx-10 px-10 py-4"
-              >
-                Publishers
-              </Link>
-              <Link
-                href="/contact"
-                onClick={toggleMobileMenu}
-                className="text-lg text-white uppercase hover:bg-green-800 border-b hover:border-none border-gray-300 mx-10 px-10 py-4"
-              >
-                Contact Us
-              </Link>
-              <Link
-                href="https://cashcramento.affise.com/v2/sign/up"
-                onClick={toggleMobileMenu}
-                className="text-lg text-white uppercase hover:bg-green-800 border-b hover:border-none border-gray-300 mx-10 px-10 py-4"
-              >
-                Sign Up
-              </Link>
-              <Link
-                href="https://cashcramento.affise.com/v2/sign/in"
-                onClick={toggleMobileMenu}
-                className="text-lg text-white uppercase hover:bg-green-800 border-b hover:border-none border-gray-300 mx-10 px-10 py-4"
-              >
-                Login
-              </Link>
-            </div>
-          </div>
+          // <div className="lg:hidden h-screen bg-gray-800">
+          //   <div className="flex flex-col px-10 py-6">
+          //     <Link
+          //       href="/about"
+          //       onClick={toggleMobileMenu}
+          //       className="text-lg text-white uppercase hover:bg-green-800 border-b hover:border-none border-gray-300 mx-10 px-10 py-4"
+          //     >
+          //       About
+          //     </Link>
+          //     <Link
+          //       href="/advertisers"
+          //       onClick={toggleMobileMenu}
+          //       className="text-lg text-white uppercase hover:bg-green-800 border-b hover:border-none border-gray-300 mx-10 px-10 py-4"
+          //     >
+          //       Advertisers
+          //     </Link>
+          //     <Link
+          //       href="/publishers"
+          //       onClick={toggleMobileMenu}
+          //       className="text-lg text-white uppercase hover:bg-green-800 border-b hover:border-none border-gray-300 mx-10 px-10 py-4"
+          //     >
+          //       Publishers
+          //     </Link>
+          //     <Link
+          //       href="/contact"
+          //       onClick={toggleMobileMenu}
+          //       className="text-lg text-white uppercase hover:bg-green-800 border-b hover:border-none border-gray-300 mx-10 px-10 py-4"
+          //     >
+          //       Contact Us
+          //     </Link>
+          //     <Link
+          //       href="https://cashcramento.affise.com/v2/sign/up"
+          //       onClick={toggleMobileMenu}
+          //       className="text-lg text-white uppercase hover:bg-green-800 border-b hover:border-none border-gray-300 mx-10 px-10 py-4"
+          //     >
+          //       Sign Up
+          //     </Link>
+          //     <Link
+          //       href="https://cashcramento.affise.com/v2/sign/in"
+          //       onClick={toggleMobileMenu}
+          //       className="text-lg text-white uppercase hover:bg-green-800 border-b hover:border-none border-gray-300 mx-10 px-10 py-4"
+          //     >
+          //       Login
+          //     </Link>
+          //   </div>
+          // </div>
+          <MobileMenu toggleMobileMenu={toggleMobileMenu} />
         )}
       </nav>
     </>
