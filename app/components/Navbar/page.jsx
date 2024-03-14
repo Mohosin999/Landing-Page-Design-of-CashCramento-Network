@@ -132,13 +132,13 @@ const Navbar = () => {
              */}
             <div className="lg:space-x-8">
               <Link
-                href={"https://cashcramento.affise.com/v2/sign/up"}
+                href={"https://cashcramento.trakaff.net/register?for=2"}
                 className={`text-gray-900 dark:text-gray-200 text:lg lg:text-base xl:text-lg uppercase hover:border-b hover:border-gray-700 dark:hover:border-gray-300 hover:border-b-2 duration-100 active:border-none `}
               >
                 <span className="relative">Sign Up</span>
               </Link>
               <Link
-                href={"https://cashcramento.affise.com/v2/sign/in"}
+                href={"https://cashcramento.trakaff.net/"}
                 className={`text-gray-900 dark:text-gray-200 text:lg lg:text-base xl:text-lg uppercase hover:border-b hover:border-gray-700 dark:hover:border-gray-300 hover:border-b-2 duration-100 active:border-none `}
               >
                 <span className="relative">Login</span>

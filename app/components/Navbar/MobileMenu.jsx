@@ -34,14 +34,14 @@ const MobileMenu = ({ toggleMobileMenu }) => {
           Contact Us
         </Link>
         <Link
-          href="https://cashcramento.affise.com/v2/sign/up"
+          href="https://cashcramento.trakaff.net/register?for=2"
           onClick={toggleMobileMenu}
           className="text-base bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-300 uppercase px-3 py-6 hover:bg-sky-300 dark:hover:bg-sky-600 duration-300 "
         >
           Sign Up
         </Link>
         <Link
-          href="https://cashcramento.affise.com/v2/sign/in"
+          href="https://cashcramento.trakaff.net/"
           onClick={toggleMobileMenu}
           className="text-base bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-300 uppercase px-3 py-6 hover:bg-sky-300 dark:hover:bg-sky-600 duration-300 "
         >
